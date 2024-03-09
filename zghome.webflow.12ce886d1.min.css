@@ -2289,7 +2289,7 @@ blockquote {
 .button-animated.large.trader-btn {
   min-width: 200px;
   background-image: linear-gradient(117deg, #11a51b, #00c3b6);
-  padding-left: 1.15em;
+  /* padding-left: 1.15em; */
 }
 .button-animated.large.trader-cta {
   padding-left: 2em;
@@ -11135,14 +11135,14 @@ blockquote {
 }
 .text-gradient__orange {
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#db4008 20%, #e7c70d 86%);
+  background-image: linear-gradient(#fff 23%, #b5d7bd 87%);
   -webkit-background-clip: text;
   background-clip: text;
   padding-right: 0.05em;
 }
 .text-gradient__green {
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#daf88d 23%, #53b169 87%);
+  background-image: linear-gradient(#fff 23%, #b5d7bd 87%);
   -webkit-background-clip: text;
   background-clip: text;
   padding-right: 0.05em;
@@ -11321,7 +11321,7 @@ blockquote {
   display: flex;
 }
 .text-gradient__gold {
-  background-image: linear-gradient(to top, var(--yellow-300) 25%, #fa8b0b 87%);
+  background-image: linear-gradient(#fff 23%, #b5d7bd 87%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -15465,7 +15465,7 @@ blockquote {
   }
   .button-animated.large {
     padding: 1em 2em;
-    font-size: 1em;
+    font-size: 0.7em;
   }
   .button-animated.large.trader-cta {
     padding: 1.4em 4.7em 1.4em 2.1em;
@@ -22230,3 +22230,6 @@ body > div.page-container > div.section.steps{
 }
 
 
+#w-node-ef7eaa74-c6c6-34db-52c4-24439a37b0d5-09b0bdc8 > div > div{
+  color: white;
+}
