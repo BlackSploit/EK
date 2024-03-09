@@ -22221,6 +22221,9 @@ body > div.page-container > div.section.steps{
   #w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 ul li{
     font-size: 3.5vw !important;
   }
+  body > div.page-container > div.section.steps {
+    display: none !important;
+  }
 }
 #w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 ul li{
   font-size: 1.6vw;
