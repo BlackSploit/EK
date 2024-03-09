@@ -16531,7 +16531,7 @@ blockquote {
     font-size: 1.875em;
   }
   .title-lg-3.getstarted {
-    font-size: 2.94em;
+    font-size: 1.9em;
   }
   .accordion-arrow-2 {
     display: none;
@@ -22223,6 +22223,19 @@ body > div.page-container > div.section.steps{
   }
   body > div.page-container > div.section.steps {
     display: none !important;
+  }
+  body > div.page-container > div.section.getstarted > div.container-xs > div{
+    margin-top:-23vh !important;
+  }
+  #service_card_1 > div.button-wrap.content-centered > a{
+    margin-top: -2.5vh !important;
+    margin-bottom: 1vh !important;
+  }
+  #w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 > ul{
+    margin-top:-50px;
+  }
+  #w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 > h6{
+    margin-top: 15px !important;
   }
 }
 #w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 ul li{
