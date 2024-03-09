@@ -1676,7 +1676,7 @@ textarea.w-select {
   position: relative;
 }
 .w-nav-link.w--current {
-  color: #0082f3;
+  color: var(--links);
 }
 .w-nav-menu {
   float: right;
@@ -10641,7 +10641,7 @@ blockquote {
   padding-right: 0.05em;
 }
 .text-gradient__indigo-2.herograd {
-  background-image: linear-gradient(351deg, #78f6d3 23%, #c9fafd 87%);
+  background-image: linear-gradient(351deg, #fff 23%, #c9fafd 87%);
   font-size: 3.1875rem;
   display: block;
 }
@@ -11076,7 +11076,7 @@ blockquote {
 .trader-card {
   z-index: 100;
   width: 100%;
-  min-height: 481px;
+  min-height: 420px;
   min-width: 310px;
   color: var(--titles);
   cursor: pointer;
@@ -16759,7 +16759,7 @@ blockquote {
   }
   .steps-box {
     width: auto;
-    max-width: 360px;
+    max-width: 330px;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
@@ -22211,3 +22211,19 @@ blockquote {
 body > div.page-container > div.section.steps{
     background: radial-gradient(ellipse 26% 30%, #00ff4d47 ,#df313100);
 }
+@media screen and (max-width: 991px){
+  body > div.page-container > div.section.getstarted > div.container-xs > div > a{
+    padding: 10px;
+  }
+  body > div.page-container > div.section.getstarted > div.container-xs > div > a > div.button-label.label-xl{
+    font-size: 4vw;
+  }
+  #w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 ul li{
+    font-size: 3.5vw !important;
+  }
+}
+#w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 ul li{
+  font-size: 1.6vw;
+}
+
+
