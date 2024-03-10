@@ -10641,7 +10641,7 @@ blockquote {
   padding-right: 0.05em;
 }
 .text-gradient__indigo-2.herograd {
-  background-image: linear-gradient(351deg, #fff 23%, #c9fafd 87%);
+  background-image: linear-gradient(351deg, #fff 23%, #fff 87%);
   font-size: 3.1875rem;
   display: block;
 }
