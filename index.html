@@ -1609,6 +1609,18 @@ Choosing our platform for bonuses and giveaways means you're opting for unmatche
     font-size: 0.6rem;
   }
   
+
+  #neonBox::before {
+  content: ''; /* Necessary for the pseudo-element to show */
+  position: absolute; /* Absolute positioning relative to #neonBox */
+  left: 0; /* Aligns the pseudo-element to the left edge of #neonBox */
+  top: 45%; /* Centers the line vertically */
+  transform: translateY(-50%); /* Adjusts the line to be centered from its middle point */
+  height: 50%; /* The height of the line, adjust as needed */
+  width: 3px; /* The thickness of the line */
+  background-color: #00c362; /* The color of your line */
+  border-radius: 4px;
+}
 </style>
 
 
@@ -1621,15 +1633,15 @@ Choosing our platform for bonuses and giveaways means you're opting for unmatche
     <div class="text-content">
       <p class="small-text" style="font-size: 0.7rem; font-weight: 600; margin-bottom: -0.4px; font-family: Ubuntu; font-weight: 700;
       font-style: normal">Subscribe on Telegram </p>
-      <p class="golden-enlightened" style="color: #FFD700; font-size: 1.2rem; margin: 0;"><b><span style="font-weight: 1100;">+</span> ₹15,000</b> </p>
+      <p class="golden-enlightened" style="color: #edb834ee; font-size: 1.2rem; margin: 0;"><b><span style="font-weight: 1100;">+</span> ₹15,000</b> </p>
       <p class="small-text" style="color: rgba(181, 241, 215, 0.636); font-family: Ubuntu; font-weight: 500;
       font-style: normal;">You may lose out many Exclusive <br> Bonuses, If you don't join our Telegram</p>
     </div>
-    <img src="./1.png" alt="Gift" class="gift-image">
+    <img src="./gift.png" alt="Gift" class="gift-image" style="margin-right: 25px;">
   </div>
   <div class="button-container">
     <button id="subscribeBtn" style="    background-image: linear-gradient(117deg, #11a51b, #00c385); font-family: Ubuntu; font-weight: 500;
-    font-style: normal;">Subscribe</button>
+    font-style: normal;"><a href="https://t.me/Elanad_support"> Subscribe </a></button>
     <button id="refuseBtn" style="background-color: rgba(38, 101, 120, 0.452); font-family: Ubuntu; font-weight: 500;
     font-style: normal;">Refuse</button>
   </div>
