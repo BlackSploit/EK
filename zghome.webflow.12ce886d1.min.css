@@ -2153,7 +2153,7 @@ textarea.w-select {
   box-shadow: 0 0 3px 1px #3898ec;
 }
 body {
-  background-color: #07120a;
+  background-color: #040d06;
   color: var(--maintext1-alt);
   letter-spacing: 0.03rem;
   font-family: Avenirnext, sans-serif;
@@ -11981,8 +11981,8 @@ blockquote {
   width: 100%;
   background-color: #00120b;
   margin-top: 4em;
-  padding-top: 62px;
-  padding-bottom: 62px;
+  /* padding-top: 62px; */
+  /* padding-bottom: 62px; */
   position: relative;
 }
 .footer-new-main-grid {
@@ -22228,7 +22228,7 @@ body > div.page-container > div.section.steps{
     margin-top:-23vh !important;
   }
   #service_card_1 > div.button-wrap.content-centered > a{
-    margin-top: -2.5vh !important;
+    margin-top: 0.5vh !important;
     margin-bottom: 1vh !important;
   }
   #w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 > ul{
@@ -22237,6 +22237,13 @@ body > div.page-container > div.section.steps{
   #w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 > h6{
     margin-top: 15px !important;
   }
+  #displaynono{
+    display: none;
+  }
+  /* #tigaa{
+    display: none;
+  } */
+ 
 }
 #w-node-_8f91672b-202b-cad3-d2a2-335e9db6e27e-09b0bdc8 ul li{
   font-size: 1.6vw;
@@ -22246,3 +22253,5 @@ body > div.page-container > div.section.steps{
 #w-node-ef7eaa74-c6c6-34db-52c4-24439a37b0d5-09b0bdc8 > div > div{
   color: white;
 }
+
+
