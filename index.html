@@ -636,7 +636,7 @@
                       <div class="button-hover-background"></div
                     ></a>
                     <div
-                      class="text-sm"
+                      class="text-sm" 
                       style="
                         cursor: pointer;
                         color: #ededee;
@@ -738,7 +738,7 @@
                       id="w-node-ef7eaa74-c6c6-34db-52c4-24439a37b0d5-09b0bdc8"
                       class="content-centered"
                     >
-                      <div class="tradername-wrap">
+                      <div class="tradername-wrap" >
                         <div
                           data="name"
                           class="title-xxs font-weight-semibold leading-tighter"
@@ -781,8 +781,8 @@
                           data="risk_image"
                           class="risk"
                         />
-                      </div>
-                      <div
+                      </div> 
+                      <div  id="guapa"
                         data="risk_text"
                         id="w-node-_10bfef3c-22c4-45d4-f76e-d599b09525ee-09b0bdc8"
                         class="risk-desc-card verylowrisk text-sm"
@@ -1035,7 +1035,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="button-wrap content-centered">
+                  <div class="button-wrap content-centered" >
                     <a
                       data="service_landing"
                       href="./index.html"
@@ -1531,6 +1531,172 @@ Choosing our platform for bonuses and giveaways means you're opting for unmatche
         <img src="./EK-Chat.png" alt="Telegram" style="width: 40px; height: 40px;">
     </a>
     </div>
+
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+
+    <style>
+     
+  #neonBox {
+    display: none; /* Initially hidden, shown via JS in mobile */
+    position: fixed;
+    bottom: 3px;
+    left: 0;
+    width: 94%; /* Ensure it spans the full width */
+    padding: 10px;
+    text-align: left;
+    background-image: linear-gradient(117deg, #131313, #31514e); /* Dark background */
+    color: rgb(255, 255, 255); /* Neon text color */
+    /* box-shadow: 0 0 2px #0f0, 0 0 2px #0f0, 0 0 3px #0f0, 0 0 4px #0f0, 0 0 5px #0f0, 0 0 6px #0f0, 0 0 7px #0f0; */
+    z-index: 1000;
+    box-sizing: border-box; /* Ensures padding does not increase box size */
+    border-radius: 20px;
+    /* margin: 5px; */
+    margin: auto;
+    margin-left: 13px !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    #neonBox {
+      display: flex; /* Display as flex to ensure content alignment */
+      flex-direction: column; /* Stack content vertically */
+    }
+  }
+
+  .content-with-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-content {
+    flex-grow: 1;
+  }
+
+  .gift-image {
+    width: 50px; /* Adjust based on your preference */
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .button-container {
+    display: flex; /* Align buttons in a flex container */
+    justify-content: center; /* Center buttons horizontally */
+    width: 100%; /* Buttons container takes full width */
+    margin-top: 10px;
+  }
+
+  #neonBox button {
+    flex-grow: 1;
+    padding: 4px;
+    margin: 0 5px; /* Space between buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .small-text, .golden-enlightened {
+    text-align: left; /* Ensure text alignment is left */
+  }
+  .small-text{
+    font-size: 0.6rem;
+  }
+  
+</style>
+
+
+
+
+
+
+<div id="neonBox">
+  <div class="content-with-image">
+    <div class="text-content">
+      <p class="small-text" style="font-size: 0.7rem; font-weight: 600; margin-bottom: -0.4px; font-family: Ubuntu; font-weight: 700;
+      font-style: normal">Subscribe on Telegram </p>
+      <p class="golden-enlightened" style="color: #FFD700; font-size: 1.2rem; margin: 0;"><b><span style="font-weight: 1100;">+</span> ₹15,000</b> </p>
+      <p class="small-text" style="color: rgba(181, 241, 215, 0.636); font-family: Ubuntu; font-weight: 500;
+      font-style: normal;">You may lose out many Exclusive <br> Bonuses, If you don't join our Telegram</p>
+    </div>
+    <img src="./1.png" alt="Gift" class="gift-image">
+  </div>
+  <div class="button-container">
+    <button id="subscribeBtn" style="    background-image: linear-gradient(117deg, #11a51b, #00c385); font-family: Ubuntu; font-weight: 500;
+    font-style: normal;">Subscribe</button>
+    <button id="refuseBtn" style="background-color: rgba(38, 101, 120, 0.452); font-family: Ubuntu; font-weight: 500;
+    font-style: normal;">Refuse</button>
+  </div>
+</div>
+
+
+
+
+    <script>
+     document.addEventListener('DOMContentLoaded', function() {
+  var neonBox = document.getElementById('neonBox');
+
+  // Check if the user is on mobile
+  if(window.innerWidth <= 768) {
+    neonBox.style.display = 'block'; // Show the neon box
+  }
+
+  window.addEventListener('scroll', function() {
+    var guapa = document.getElementById('guapa');
+    var guapaPosition = guapa.getBoundingClientRect(); // Get position of the guapa element
+
+    // Check if guapa is visible in the viewport
+    if(guapaPosition.top >= 0 && guapaPosition.bottom <= window.innerHeight) {
+      neonBox.style.display = 'none'; // Hide the neon box when guapa is in view
+    }
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  var neonBox = document.getElementById('neonBox');
+  var refuseBtn = document.getElementById('refuseBtn');
+
+  // Check if the user is on mobile
+  if(window.innerWidth <= 768) {
+    neonBox.style.display = 'block'; // Show the neon box
+  }
+
+  // Event listener for the refuse button
+  refuseBtn.addEventListener('click', function() {
+    neonBox.style.display = 'none'; // Hide the neon box
+  });
+
+  window.addEventListener('scroll', function() {
+    var guapa = document.getElementById('guapa');
+    var guapaPosition = guapa.getBoundingClientRect(); // Get position of the guapa element
+
+    // Check if guapa is visible in the viewport
+    if(guapaPosition.top >= 0 && guapaPosition.bottom <= window.innerHeight) {
+      neonBox.style.display = 'none'; // Hide the neon box when guapa is in view
+    }
+  });
+});
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
     <script
       src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62baff422da4e82ab1f79c6c"
       type="text/javascript"
